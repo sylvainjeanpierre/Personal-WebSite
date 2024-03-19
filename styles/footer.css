@@ -1,0 +1,19 @@
+footer {
+    padding: 50px;
+    height: 200px;
+    color: white;
+    background-color: black;
+}
+
+#footer__upper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#footer__lower {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid grey;
+    padding-top: 50px;
+}
