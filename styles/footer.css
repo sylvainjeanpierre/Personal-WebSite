@@ -11,6 +11,17 @@ footer {
     margin-bottom: 50px;
 }
 
+#footer__upper-links {
+    display: flex;
+    align-items: center;
+}
+
+#footer__upper img {
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
 #footer__lower {
     width: 100%;
     text-align: center;

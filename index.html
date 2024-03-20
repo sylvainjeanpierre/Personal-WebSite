@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./styles/projects.css">
     <link rel="stylesheet" href="./styles/contact.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <script type="module" src="./scripts/index.js"></script>
 </head>
 
 <body>
@@ -27,20 +28,34 @@
             <p>Sylvain Developer</p>
         </div>
         <nav>
-            <button>Accueil</button>
-            <button>A propos</button>
-            <button>Projets</button>
-            <button>Contact</button>
+            <button data-target="home" class="section_target_btn">Accueil</button>
+            <button data-target="about" class="section_target_btn">A propos</button>
+            <button data-target="projects" class="section_target_btn">Projets</button>
+            <button data-target="contact" class="section_target_btn">Contact</button>
         </nav>
     </header>
 
     <section id="home">
-        <img src="" alt="">
+        <aside id="home__links">
+            <img src="./images/github_logo.png" alt="GitHub" class="github-link">
+            <img src="./images/linkedin_logo.png" alt="LinkedIn" class="linkedin-link">
+        </aside>
+
         <h1 id="home__title"><span>Sylvain Jeanpierre</span><br>Développeur web front-end</h1>
         <div>
-            <button id="home__button-contact">Me contacter</button>
-            <button id="home__button-projects">Mes projets</button>
+            <button data-target="contact" id="home__button-contact" class="section_target_btn">
+                Me contacter
+                <!-- arrow emoji -->
+                <span>&#8595;</span>
+            </button>
+            <button data-target="projects" id="home__button-projects" class="section_target_btn">
+                Mes projets
+                <!-- arrow emoji -->
+                <span>&#8595;</span>
+            </button>
+
         </div>
+
     </section>
 
     <section id="about">
@@ -120,8 +135,10 @@
     <footer>
         <div id="footer__upper">
             <h3>Sylvain Jeanpierre - Développeur web</h3>
-            <div>
+            <div id="footer__upper-links">
                 <h3>Réseaux</h3>
+                <img src="./images/github_logo_footer.png" alt="GitHub" class="github-link">
+                <img src="./images/linkedin_logo.png" alt="LinkedIn" class="linkedin-link">
             </div>
         </div>
         <div id="footer__lower">
