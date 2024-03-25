@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Booki",
+        "comment": "Le projet consistait à développer le frontend de la page d'accueil de Booki, une plateforme en ligne dédiée à la recherche d'hébergements et d'activités dans différentes villes.",
+        "skills" : [
+            "Frontend",
+            "HTML",
+            "CSS"
+        ],
+        "githubUrl": "https://github.com/sylvainjeanpierre/Projet2-OC-HTML-CSS",
+        "logoUrl": "./assets/images/projects/booki/booki-logo.png",
+        "imageUrl": [
+            "./assets/images/projects/booki/booki-1.png",
+            "./assets/images/projects/booki/booki-2.png"
+        ]
+    },
+    {
+        "name": "Sophie Bluel",
+        "comment": "J'ai été en charge du développement frontend pour le portfolio en ligne de la photographe Sophie Bluel. Ce site permet aux visiteurs de découvrir son travail à travers des catégories de photos soigneusement organisées. De plus, une interface d'administration sécurisée permet à Sophie d'ajouter, modifier ou supprimer des photos selon ses besoins.",
+        "skills" : [
+            "Frontend",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "githubUrl": "https://github.com/sylvainjeanpierre/Projet3-OC-JavaScript",
+        "logoUrl": "./assets/images/projects/sophie-bluel/sophie-bluel-logo.png",
+        "imageUrl": [
+            "./assets/images/projects/sophie-bluel/sophie-bluel-1.png",
+            "./assets/images/projects/sophie-bluel/sophie-bluel-2.png",
+            "./assets/images/projects/sophie-bluel/sophie-bluel-3.png",
+            "./assets/images/projects/sophie-bluel/sophie-bluel-4.png",
+            "./assets/images/projects/sophie-bluel/sophie-bluel-5.png",
+            "./assets/images/projects/sophie-bluel/sophie-bluel-6.png"
+        ]
+    },
+    {
+        "name": "Menu Maker by Qwenta",
+        "comment": "Pour ce projet, j'ai eu la résponsabilité de la gestion de projet. Mon rôle à été d'initier une veille technologique interne à l'équipe et au projet, identifier les besoins techniques spécifiques, sélectionner et configurer un outil de gestion adapté.",
+        "skills" : [
+            "Gestion de projet",
+            "GitHub"
+        ],
+        "logoUrl": "./assets/images/projects/qwenta/qwenta-logo.png",
+        "imageUrl": [
+            "./assets/images/projects/qwenta/qwenta-1.png",
+            "./assets/images/projects/qwenta/qwenta-2.png",
+            "./assets/images/projects/qwenta/qwenta-3.png",
+            "./assets/images/projects/qwenta/qwenta-4.png",
+            "./assets/images/projects/qwenta/qwenta-5.png"
+        ]
+    },
+    {
+        "name": "Nina Carducci",
+        "comment": "J'ai été chargé de déboguer et d'optimiser le site web de Nina Carducci. Ce projet a impliqué la résolution de bugs, l'amélioration des performances, l'optimisation du SEO, l'intégration du référencement local et des réseaux sociaux, ainsi que la correction de l'accessibilité du site.",
+        "skills" : [
+            "Frontend",
+            "HTML",
+            "CSS",
+            "Debug",
+            "Optimisation",
+            "SEO"
+        ],
+        "githubUrl": "https://github.com/sylvainjeanpierre/Projet5-OC-Debug-Optimization",
+        "logoUrl": "./assets/images/projects/nina-carducci/nina-carducci-logo.png",
+        "imageUrl": [
+            "./assets/images/projects/nina-carducci/nina-carducci-1.png",
+            "./assets/images/projects/nina-carducci/nina-carducci-2.png",
+            "./assets/images/projects/nina-carducci/nina-carducci-3.png",
+            "./assets/images/projects/nina-carducci/nina-carducci-4.png"
+        ]
+    },
+    {
+        "name": "Kasa",
+        "comment": "Pour le projet Kasa, j'ai développé un site de location d'appartements entre particuliers en utilisant React. J'ai intégré les fonctionnalités de React telles que le routage, les composants réutilisables et la gestion d'état pour créer une interface fluide et intuitive.",
+        "skills" : [
+            "Frontend",
+            "HTML",
+            "SASS",
+            "JavaScript",
+            "React"
+        ],
+        "githubUrl": "https://github.com/sylvainjeanpierre/Projet6-OC-React",
+        "logoUrl": "./assets/images/projects/kasa/kasa-logo.png",
+        "imageUrl": [
+            "./assets/images/projects/kasa/kasa-1.png",
+            "./assets/images/projects/kasa/kasa-2.png",
+            "./assets/images/projects/kasa/kasa-3.png",
+            "./assets/images/projects/kasa/kasa-4.png"
+        ]
+    },
+    {
+        "name": "Mon vieux grimoire",
+        "comment": "Pour le site de référencement et de notation de la librairie 'Mon vieux grimoire', j'ai pris en charge le développement du backend. J'ai créé un serveur Express, établi une API RESTful et mis en place un système d'authentification sécurisé. J'ai également implémenté les routes CRUD pour assurer la gestion efficace des données.",
+        "skills" : [
+            "Backend",
+            "JavaScript",
+            "Express"
+        ],
+        "githubUrl": "https://github.com/sylvainjeanpierre/Projet7-OC-Back-end",
+        "logoUrl": "./assets/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-logo.png",
+        "imageUrl": [
+            "./assets/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-1.png",
+            "./assets/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-2.png",
+            "./assets/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-3.png",
+            "./assets/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-4.png",
+            "./assets/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-5.png"
+        ]
+    }
+]
