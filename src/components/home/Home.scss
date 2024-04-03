@@ -1,0 +1,68 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../../public/images/home-background.png");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 600px;
+    font-size: 30px;
+}
+
+#home__title {
+    position: relative;
+    top: 30%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+#home__title span {
+    color: rgb(255, 100, 100);
+}
+
+
+.scroll-icon {
+	position: absolute;
+    bottom: 20px;
+	width: 20px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 2em;
+}
+
+.scroll-icon .wheel {
+	position: absolute;
+	left: 50%;
+	top: 15%;
+	width: 5px;
+	height: 5px;
+	background-color: #fff;
+	transform: translate(-50%, 0);
+	border-radius: .6em;
+	animation: wheel 1s ease-in-out infinite;
+}
+@keyframes wheel {
+	0% {
+		transform: translate(-50%, 0);
+		opacity: 0;
+	}
+	20%, 70% {
+		opacity: 1;
+	}
+	90%, 100% {
+		transform: translate(-50%, 150%);
+		opacity: 0;
+	}
+}

@@ -1,0 +1,160 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    font-weight: 600;
+    z-index: 2;
+}
+
+#header_logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    cursor: pointer;
+    transition: 200ms;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+#header_logo {
+    height: 70%;
+    margin-right: 10px;
+}
+
+#header_logo-container p {
+    font-size: 1.5em;
+}
+
+#header_logo-container:hover {
+    transform: scale(0.95);
+    transition: 200ms;
+}
+
+nav ul {
+    margin-right: 80px;
+    list-style: none;
+    display: flex;
+}
+
+nav button {
+    border: none;
+    background-color: transparent;
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 200ms;
+}
+
+nav button:hover {
+    color: rgb(255, 100, 100);
+    transform: scale(0.95);
+    transition: 200ms;
+}
+
+#menu-close,
+#menu-open {
+    display: none;
+}
+
+#menu-open {
+    margin-right: 50px;
+}
+
+#menu-close {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+#check {
+    display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    #header_logo-container {
+        margin-left: 50px;
+    }
+
+    nav ul {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        margin: 0;
+        padding: 20px;
+        border-radius: 0 0 5px 0;
+        background-color: white;
+        z-index: 1;
+        width: 50%;
+        max-width: 300px;
+        transition: all 0.3s ease;
+    }
+
+    nav li {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul button {
+        margin: 0;
+        padding: 10px;
+    }
+
+    #menu-open {
+        display: block;
+    }
+
+    #check:checked ~ #menu-open {
+        display: none;
+    }
+
+    #check:checked ~ ul #menu-close {
+        display: block;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    header {
+        height: 60px;
+    }
+
+    #header__logo-container {
+        margin-left: 20px;
+        font-size: 0.8em;
+    }
+
+    #header__logo {
+        height: 40px;
+    }
+
+    #menu-open {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    #header__logo-container p {
+        display: none;
+
+    }
+
+    nav ul {
+        width: 80%;
+    }
+
+}
