@@ -59,10 +59,6 @@ function Projects() {
         ou lors de ma formation
       </p>
 
-
-      <div id="projects__container">
-
-
         <Splide
         aria-label="My Favorite Images"
         options={splideOptions}
@@ -70,7 +66,6 @@ function Projects() {
           {projectsImages}
         </Splide>
 
-      </div>
 
 
 

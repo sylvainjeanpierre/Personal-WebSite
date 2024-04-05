@@ -14,6 +14,7 @@ function Project() {
         <section id="project">
 
             <h1 id="title">{project.name}</h1>
+            <h2>Page en travaux</h2>
 
     </section>
 

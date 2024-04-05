@@ -10,7 +10,23 @@ export const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
+
     e.preventDefault();
+
+    const name = form.current.name.value.trim();
+    const email = form.current.email.value.trim();
+    const message = form.current.message.value.trim();
+
+    if (!name || !email || !message) {
+      alert('Tous les champs doivent être remplis.');
+      return;
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      alert('Veuillez entrer une adresse email valide.');
+      return;
+    }
 
     setIsSubmitting(true);
 
