@@ -1,40 +1,57 @@
+import React from 'react';
 import './Skills.scss';
 
 function Skills() {
+    const [hovered, setHovered] = React.useState(null);
+
+    const handleMouseEnter = (skill) => {
+        setHovered(skill);
+    };
+
+    const handleMouseLeave = () => {
+        setHovered(null);
+    };
+
+    const skills = [
+        { name: "HTML", logo: "html-logo.webp" },
+        { name: "CSS", logo: "css-logo.webp" },
+        { name: "SASS", logo: "sass-logo.webp" },
+        { name: "JavaScript", logo: "javascript-logo.webp" },
+        { name: "React", logo: "react-logo.webp" },
+        { name: "NodeJS", logo: "node-logo.webp" },
+        { name: "Express" },
+        { name: "Git", logo: "git-logo.webp" },
+        { name: "GitHub", logo: "github-logo.webp" },
+        { name: "Optimisation" },
+        { name: "SEO" },
+    ];
+
     return (
         <section id="skills">
-
             <h2>Mes compétences</h2>
-            <ul>
-                <li className="skills">HTML</li>
-                <li className="skills">CSS</li>
-                <li className="skills">SASS</li>
-                <li className="skills">JavaScript</li>
-                <li className="skills">React</li>
-                <li className="skills">Express</li>
-                <li className="skills">Git</li>
-                <li className="skills">GitHub</li>
-                <li className="skills">Optimisation</li>
-                <li className="skills">SEO</li>
-            </ul>
-
-            <div id='skills-logo'>
-            <img src={`${process.env.PUBLIC_URL}/images/skills/html-logo.png`} alt="HTML" />
-            <img src={`${process.env.PUBLIC_URL}/images/skills/css-logo.png`} alt="CSS" />
-            <img src={`${process.env.PUBLIC_URL}/images/skills/sass-logo.png`} alt="SASS" />
-            <img src={`${process.env.PUBLIC_URL}/images/skills/javascript-logo.png`} alt="JavaScript" />
-            <img src={`${process.env.PUBLIC_URL}/images/skills/react-logo.png`} alt="React" />
-            <img src={`${process.env.PUBLIC_URL}/images/skills/node-logo.png`} alt="NodeJS" />
-            <img src={`${process.env.PUBLIC_URL}/images/skills/mongodb-logo.png`} alt="MongoDB" />
-            <img src={`${process.env.PUBLIC_URL}/images/skills/git-logo.png`} alt="Git" />
-            <img src={`${process.env.PUBLIC_URL}/images/skills/github-logo.png`} alt="GitHub" />
+            <div id='skills-container'>
+                {skills.map((skill, index) => (
+                    <div
+                        className="skill"
+                        key={index}
+                        onMouseEnter={() => handleMouseEnter(skill.name)}
+                        onMouseLeave={handleMouseLeave}
+                    >
+                        <p style={{ opacity: hovered === skill.name && skill.logo ? 0 : 1 }}>
+                            {skill.name}
+                        </p>
+                        {skill.logo && (
+                            <img
+                                src={`${process.env.PUBLIC_URL}/images/skills/${skill.logo}`}
+                                alt={skill.name}
+                                style={{ opacity: hovered === skill.name ? 1 : 0 }}
+                            />
+                        )}
+                    </div>
+                ))}
             </div>
-
         </section>
     );
 }
 
 export default Skills;
-
-
-

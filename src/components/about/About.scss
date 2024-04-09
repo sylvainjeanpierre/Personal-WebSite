@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 50px 100px 50px 100px;
+    padding: 50px 15% 50px 15%;
     height: auto;
 }
 
@@ -25,4 +25,21 @@
     opacity: 0.8;
     transform: scale(0.95);
     transition: 200ms;
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    #about {
+        padding: 50px 10% 50px 10%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    
+    #about {
+        padding: 50px 5% 50px 5%;
+    }
+    
 }

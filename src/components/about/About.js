@@ -16,12 +16,12 @@ function About() {
 
       <div id="about__networks-links">
         <img
-          src={`${process.env.PUBLIC_URL}/images/github-logo.png`}
+          src={`${process.env.PUBLIC_URL}/images/github-logo.webp`}
           alt="GitHub"
           onClick={() => window.open("https://github.com/sylvainjeanpierre", "_blank")}
         />
         <img
-          src={`${process.env.PUBLIC_URL}/images/linkedin-logo.png`}
+          src={`${process.env.PUBLIC_URL}/images/linkedin-logo.webp`}
           alt="GitHub"
           onClick={() => window.open("https://www.linkedin.com/in/sylvain-jeanpierre-a25a14128/", "_blank")}
         />

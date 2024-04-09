@@ -1,0 +1,41 @@
+#page-error {
+    padding-top: 70px;
+    background-image: url("../../../public/images/page-error-background.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+
+#page-error h2 {
+    font-size: 4em;
+    text-align: end;
+    margin: 30px 50px 0 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #page-error h2 {
+        font-size: 3em;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    #page-error h2 {
+        font-size: 2em;
+        text-align: center;
+        margin: 60px 0 0 0;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    #page-error h2 {
+        font-size: 1.5em;
+    }
+
+}

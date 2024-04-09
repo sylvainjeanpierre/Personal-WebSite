@@ -1,5 +1,80 @@
 #project {
-    padding: 300px 200px 200px 200px;
+    padding: 70px 5% 50px 5%;
     text-align: center;
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+}
 
+#project .carousel {
+    margin: 30px 0 30px;
+}
+
+#project-logo {
+    height: auto;
+    max-height: 70px;
+    max-width: 50%;
+    margin-bottom: 30px;
+}
+
+#project-comment {
+    margin-bottom: 30px;
+}
+
+#project-skills li {
+    background-color: rgb(255, 100, 100);
+    color: white;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:
+        1.4px 1.4px 2.2px rgba(0, 0, 0, 0.02),
+        3.3px 3.3px 5.3px rgba(0, 0, 0, 0.028),
+        6.3px 6.3px 10px rgba(0, 0, 0, 0.035),
+        11.2px 11.2px 17.9px rgba(0, 0, 0, 0.042),
+        20.9px 20.9px 33.4px rgba(0, 0, 0, 0.05),
+        50px 50px 80px rgba(0, 0, 0, 0.07);
+    margin: 5px;
+    text-align: center;
+    transition: 200ms;
+}
+
+#project-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#project-github,
+#project-online {
+margin: 15px;
+}
+
+#project-github {
+    width: 50%;
+    max-width: 150px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+#project-github:hover,
+#project-online:hover {
+    transform: scale(0.95);
+    opacity: 0.8;
+    transition: 200ms;
+}
+
+#project-online {
+    color: rgb(255, 100, 100);
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+@media screen and (max-width: 400px) {
+
+    #project-links {
+        flex-direction: column;
+    }
 }

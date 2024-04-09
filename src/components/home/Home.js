@@ -9,8 +9,8 @@ function Home() {
                 <br />
                 Développeur web front-end
             </h1>
-            <div class="scroll-icon">
-                <span class="wheel"></span>
+            <div className="scroll-icon">
+                <span className="wheel"></span>
             </div>
         </section>
     );

@@ -1,7 +1,11 @@
 #projects {
-    padding: 70px 20% 70px 20%;
+    padding: 70px 10% 70px 10%;
     text-align: center;
     background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #projects__intro {
@@ -11,6 +15,15 @@
 .carousel {
     height: auto;
     border-radius: 10px;
+    max-width: 1000px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
 }
 
 .carousel-image {
@@ -43,9 +56,39 @@
 .carousel-skills li {
     background-color: rgb(255, 100, 100);
     color: white;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:
+        1.4px 1.4px 2.2px rgba(0, 0, 0, 0.02),
+        3.3px 3.3px 5.3px rgba(0, 0, 0, 0.028),
+        6.3px 6.3px 10px rgba(0, 0, 0, 0.035),
+        11.2px 11.2px 17.9px rgba(0, 0, 0, 0.042),
+        20.9px 20.9px 33.4px rgba(0, 0, 0, 0.05),
+        50px 50px 80px rgba(0, 0, 0, 0.07);
+    margin: 5px;
+    text-align: center;
+    transition: 200ms;
 }
 
-.carousel-skills li:hover {
-    background-color: rgb(255, 100, 100,0.8);
-    cursor: auto;
+@media screen and (max-width: 700px) {
+
+    .carousel-skills li {
+        font-size: 1em;
+        padding: 5px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    #projects {
+        padding: 70px 5% 70px 5%;
+    }
+
+    .carousel-skills {
+        display: none;
+
+    }
 }

@@ -1,7 +1,7 @@
 #home {
     display: flex;
     flex-direction: column;
-    background-image: url("../../../public/images/home-background.png");
+    background-image: url("../../../public/images/home-background.webp");
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -17,6 +17,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 10px;
+    margin: 0 20px 0 20px;
     border-radius: 20px;
     box-shadow:
   2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
@@ -65,4 +66,22 @@
 		transform: translate(-50%, 150%);
 		opacity: 0;
 	}
+}
+
+@media screen and (max-height: 600px) {
+
+    .scroll-icon {
+        display: none;
+    }
+    
+
+    }
+
+
+@media screen and (max-width: 450px) {
+    
+#home__title {
+    font-size: 1em;
+}
+
 }

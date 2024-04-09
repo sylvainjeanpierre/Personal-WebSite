@@ -1,5 +1,7 @@
 import './Header.scss';
-const logoUrl = `${process.env.PUBLIC_URL}/images/logo.png`;
+const logoUrl = `${process.env.PUBLIC_URL}/images/logo.webp`;
+const logoMenuOpen = `${process.env.PUBLIC_URL}/images/menu-open-logo.ico`;
+const logoMenuClose = `${process.env.PUBLIC_URL}/images/menu-close-logo.ico`;
 import { Link } from "react-router-dom";
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -10,8 +12,10 @@ function useScrollToAnchor() {
   useEffect(() => {
     if (location.hash) {
       const element = document.getElementById(location.hash.slice(1));
+      const mobileMenu = document.getElementById("check");
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
+        mobileMenu.checked = false;
       }
     }
   }, [location]);
@@ -32,7 +36,7 @@ function Header() {
         <input type="checkbox" id="check" />
         <ul>
           <label id="menu-close" htmlFor="check">
-            <i className="fa-solid fa-xmark" />
+            <img src={logoMenuClose} alt='Fermer le menu'/>
           </label>
           <li>
             <Link to="/#home">
@@ -64,7 +68,7 @@ function Header() {
           </li>
         </ul>
         <label id="menu-open" htmlFor="check">
-          <i className="fa-solid fa-bars" />
+        <img src={logoMenuOpen} alt='Menu'/>
         </label>
       </nav>
     </header>

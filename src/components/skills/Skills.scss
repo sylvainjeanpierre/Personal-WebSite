@@ -1,14 +1,49 @@
 #skills {
-    padding: 50px;
     background-color: rgb(250, 250, 250);
     text-align: center;
+    padding: 50px;
 }
 
-#skills-logo {
-    margin-top: 50px;
+#skills-container  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-#skills img {
-    height: 80px;
-    margin: 0 20px 0 20px;
+.skill {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill p {
+    font-size: 1.2em;
+    display: inline-block;
+    background-color: rgb(255, 100, 100, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:
+        1.4px 1.4px 2.2px rgba(0, 0, 0, 0.02),
+        3.3px 3.3px 5.3px rgba(0, 0, 0, 0.028),
+        6.3px 6.3px 10px rgba(0, 0, 0, 0.035),
+        11.2px 11.2px 17.9px rgba(0, 0, 0, 0.042),
+        20.9px 20.9px 33.4px rgba(0, 0, 0, 0.05),
+        50px 50px 80px rgba(0, 0, 0, 0.07);
+    margin: 5px;
+    text-align: center;
+    transition: 200ms;
+}
+
+.skill img {
+    position: absolute;
+    transition: all 200ms;
+    height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+
+    #skills {
+        padding: 50px 5% 50px 5%;
+    }
 }

@@ -9,10 +9,11 @@
             "CSS"
         ],
         "githubUrl": "https://github.com/sylvainjeanpierre/Projet2-OC-HTML-CSS",
-        "logoUrl": "/images/projects/booki/booki-logo.png",
+        "online": "https://sylvainjeanpierre.github.io/Booki/",
+        "logoUrl": "/images/projects/booki/booki-logo.webp",
         "imageUrl": [
-            "/images/projects/booki/booki-1.png",
-            "/images/projects/booki/booki-2.png"
+            "/images/projects/booki/booki-1.webp",
+            "/images/projects/booki/booki-2.webp"
         ]
     },
     {
@@ -26,14 +27,14 @@
             "JavaScript"
         ],
         "githubUrl": "https://github.com/sylvainjeanpierre/Projet3-OC-JavaScript",
-        "logoUrl": "/images/projects/sophie-bluel/sophie-bluel-logo.png",
+        "logoUrl": "/images/projects/sophie-bluel/sophie-bluel-logo.webp",
         "imageUrl": [
-            "/images/projects/sophie-bluel/sophie-bluel-1.png",
-            "/images/projects/sophie-bluel/sophie-bluel-2.png",
-            "/images/projects/sophie-bluel/sophie-bluel-3.png",
-            "/images/projects/sophie-bluel/sophie-bluel-4.png",
-            "/images/projects/sophie-bluel/sophie-bluel-5.png",
-            "/images/projects/sophie-bluel/sophie-bluel-6.png"
+            "/images/projects/sophie-bluel/sophie-bluel-1.webp",
+            "/images/projects/sophie-bluel/sophie-bluel-2.webp",
+            "/images/projects/sophie-bluel/sophie-bluel-3.webp",
+            "/images/projects/sophie-bluel/sophie-bluel-4.webp",
+            "/images/projects/sophie-bluel/sophie-bluel-5.webp",
+            "/images/projects/sophie-bluel/sophie-bluel-6.webp"
         ]
     },
     {
@@ -44,13 +45,13 @@
             "Gestion de projet",
             "GitHub"
         ],
-        "logoUrl": "/images/projects/qwenta/qwenta-logo.png",
+        "logoUrl": "/images/projects/qwenta/qwenta-logo.webp",
         "imageUrl": [
-            "/images/projects/qwenta/qwenta-1.png",
-            "/images/projects/qwenta/qwenta-2.png",
-            "/images/projects/qwenta/qwenta-3.png",
-            "/images/projects/qwenta/qwenta-4.png",
-            "/images/projects/qwenta/qwenta-5.png"
+            "/images/projects/qwenta/qwenta-1.webp",
+            "/images/projects/qwenta/qwenta-2.webp",
+            "/images/projects/qwenta/qwenta-3.webp",
+            "/images/projects/qwenta/qwenta-4.webp",
+            "/images/projects/qwenta/qwenta-5.webp"
         ]
     },
     {
@@ -66,12 +67,13 @@
             "SEO"
         ],
         "githubUrl": "https://github.com/sylvainjeanpierre/Projet5-OC-Debug-Optimization",
-        "logoUrl": "/images/projects/nina-carducci/nina-carducci-logo.png",
+        "online": "https://sylvainjeanpierre.github.io/Nina-Carducci/",
+        "logoUrl": "/images/projects/nina-carducci/nina-carducci-logo.webp",
         "imageUrl": [
-            "/images/projects/nina-carducci/nina-carducci-1.png",
-            "/images/projects/nina-carducci/nina-carducci-2.png",
-            "/images/projects/nina-carducci/nina-carducci-3.png",
-            "/images/projects/nina-carducci/nina-carducci-4.png"
+            "/images/projects/nina-carducci/nina-carducci-1.webp",
+            "/images/projects/nina-carducci/nina-carducci-2.webp",
+            "/images/projects/nina-carducci/nina-carducci-3.webp",
+            "/images/projects/nina-carducci/nina-carducci-4.webp"
         ]
     },
     {
@@ -86,12 +88,13 @@
             "React"
         ],
         "githubUrl": "https://github.com/sylvainjeanpierre/Projet6-OC-React",
-        "logoUrl": "/images/projects/kasa/kasa-logo.png",
+        "online": "https://sylvainjeanpierre.github.io/Kasa/",
+        "logoUrl": "/images/projects/kasa/kasa-logo.webp",
         "imageUrl": [
-            "/images/projects/kasa/kasa-1.png",
-            "/images/projects/kasa/kasa-2.png",
-            "/images/projects/kasa/kasa-3.png",
-            "/images/projects/kasa/kasa-4.png"
+            "/images/projects/kasa/kasa-1.webp",
+            "/images/projects/kasa/kasa-2.webp",
+            "/images/projects/kasa/kasa-3.webp",
+            "/images/projects/kasa/kasa-4.webp"
         ]
     },
     {
@@ -106,13 +109,13 @@
             "MongoDB"
         ],
         "githubUrl": "https://github.com/sylvainjeanpierre/Projet7-OC-Back-end",
-        "logoUrl": "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-logo.png",
+        "logoUrl": "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-logo.webp",
         "imageUrl": [
-            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-1.png",
-            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-2.png",
-            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-3.png",
-            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-4.png",
-            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-5.png"
+            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-1.webp",
+            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-2.webp",
+            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-3.webp",
+            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-4.webp",
+            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-5.webp"
         ]
     }
 ]
