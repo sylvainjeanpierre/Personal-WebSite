@@ -19,11 +19,11 @@ function Skills() {
         { name: "JavaScript", logo: "javascript-logo.webp" },
         { name: "React", logo: "react-logo.webp" },
         { name: "NodeJS", logo: "node-logo.webp" },
-        { name: "Express" },
+        { name: "Express", logo: "express-logo.webp" },
         { name: "Git", logo: "git-logo.webp" },
         { name: "GitHub", logo: "github-logo.webp" },
-        { name: "Optimisation" },
-        { name: "SEO" },
+        { name: "Optimisation", logo: "optimization-logo.webp" },
+        { name: "SEO", logo: "seo-logo.webp" },
     ];
 
     return (

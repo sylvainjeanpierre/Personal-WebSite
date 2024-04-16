@@ -51,6 +51,13 @@ function Project() {
             </Splide>
             <img id="project-logo" src={project.logoUrl} alt={project.name} />
             <p id="project-comment">{project.comment}</p>
+
+            <h3 id="project-problematic">Problématique :</h3>
+            <p>{project.problematic}</p>
+
+            <h3 id="project-solution">Solution :</h3>
+            <p>{project.solution}</p>
+
             <ul id="project-skills">
                 {projectSkills}
             </ul>

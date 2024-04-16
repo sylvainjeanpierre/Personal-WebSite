@@ -16,7 +16,7 @@ function Projects() {
         <img
           src={project.imageUrl[0]}
           alt={project.name}
-          onMouseEnter={() => setIsHovered(true)}
+          onMouseEnter={() => window.innerWidth > 1000 && setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
           style={{ opacity: isHovered ? 0.5 : 1 }}
           className="carousel-image" />
@@ -24,14 +24,14 @@ function Projects() {
           src={project.logoUrl}
           alt={project.name}
           className="carousel-logo"
-          onMouseEnter={() => setIsHovered(true)}
+          onMouseEnter={() => window.innerWidth > 1000 && setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
           style={
           { width: isHovered ? "25%" : "20%",
            backgroundColor: isHovered ? "transparent" : "rgba(255, 255, 255, 0.5)"}}/>
           <ul
           className="carousel-skills"
-          onMouseEnter={() => setIsHovered(true)}
+          onMouseEnter={() => window.innerWidth > 1000 && setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
           style={{ opacity: isHovered ? 1 : 0 }}>
           {project.skills.map((skill, index) => (
@@ -46,7 +46,7 @@ function Projects() {
     type       : 'loop',
     autoplay   : true,
     pauseOnHover: true,
-    interval   : 3000,
+    interval   : 3000
   };
 
 

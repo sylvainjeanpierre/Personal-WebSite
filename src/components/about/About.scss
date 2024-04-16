@@ -27,6 +27,15 @@
     transition: 200ms;
 }
 
+@media screen and (max-width: 1000px) {
+    
+    #about__networks-links img:hover {
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+}
+
 
 @media screen and (max-width: 700px) {
     

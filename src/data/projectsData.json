@@ -14,7 +14,9 @@
         "imageUrl": [
             "/images/projects/booki/booki-1.webp",
             "/images/projects/booki/booki-2.webp"
-        ]
+        ],
+        "problematic": "Difficultés à créer un design responsive qui s'adapte correctement à tous les types d'écrans.",
+        "solution": "Utilisation des Media Queries pour ajuster les éléments en fonction de la taille de l'écran et passage à un layout flexible avec Flexbox pour une meilleure gestion de l'espacement et de l'alignement des éléments."
     },
     {
         "name": "Sophie Bluel",
@@ -35,7 +37,9 @@
             "/images/projects/sophie-bluel/sophie-bluel-4.webp",
             "/images/projects/sophie-bluel/sophie-bluel-5.webp",
             "/images/projects/sophie-bluel/sophie-bluel-6.webp"
-        ]
+        ],
+        "problematic": "Difficultés avec l'asynchronicité, notamment avec les requêtes API qui ne chargeaient pas à temps.",
+        "solution": "Mise en œuvre de async/await pour une gestion plus claire et efficace des opérations asynchrones, garantissant que les données sont chargées avant de procéder à leur traitement."
     },
     {
         "name": "Menu Maker by Qwenta",
@@ -52,7 +56,9 @@
             "/images/projects/qwenta/qwenta-3.webp",
             "/images/projects/qwenta/qwenta-4.webp",
             "/images/projects/qwenta/qwenta-5.webp"
-        ]
+        ],
+        "problematic": "Manque d'expérience dans la configuration de GitHub pour gérer un projet complet, de la planification à l'exécution.",
+        "solution": "Configuration du projet dans 'projects' pour visualiser les tâches sous forme de tableau Kanban, permettant un suivi en temps réel de l'avancement du projet."
     },
     {
         "name": "Nina Carducci",
@@ -74,7 +80,9 @@
             "/images/projects/nina-carducci/nina-carducci-2.webp",
             "/images/projects/nina-carducci/nina-carducci-3.webp",
             "/images/projects/nina-carducci/nina-carducci-4.webp"
-        ]
+        ],
+        "problematic": "Performances médiocres du site et temps de chargement longs.",
+        "solution": "Utilisation d'outils comme Google Lighthouse pour identifier et corriger les problèmes de performances, tels que la compression d'images et la minimisation du CSS/JS."
     },
     {
         "name": "Kasa",
@@ -95,7 +103,9 @@
             "/images/projects/kasa/kasa-2.webp",
             "/images/projects/kasa/kasa-3.webp",
             "/images/projects/kasa/kasa-4.webp"
-        ]
+        ],
+        "problematic": "Assurer la réutilisabilité des composants dans différentes parties de l'application tout en maintenant un code propre et organisé.",
+        "solution": " Création de composants personnalisés au sein de l'application. Chaque composant a été conçu pour être réutilisable et encapsulé."
     },
     {
         "name": "Mon vieux grimoire",
@@ -116,6 +126,8 @@
             "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-3.webp",
             "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-4.webp",
             "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-5.webp"
-        ]
+        ],
+        "problematic": "Sécurité des données et gestion des sessions utilisateurs.",
+        "solution": "Mise en place de JWT (JSON Web Tokens) pour sécuriser les sessions et assurer une communication sécurisée entre le client et le serveur."
     }
 ]

@@ -27,6 +27,7 @@ function Header() {
 
   return (
     <header>
+      <div id='header-container'>
       <Link to="/#home" id="header_logo-container">
         <img src={logoUrl} alt="Mon logo" id="header_logo" />
         <p id="header_title">Sylvain Developer</p>
@@ -71,6 +72,7 @@ function Header() {
         <img src={logoMenuOpen} alt='Menu'/>
         </label>
       </nav>
+      </div>
     </header>
   );
 }

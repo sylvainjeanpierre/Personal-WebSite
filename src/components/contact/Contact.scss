@@ -20,12 +20,13 @@
     border-radius: 10px;
     width: 600px;
     box-shadow:
-        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
-        100px 100px 80px rgba(0, 0, 0, 0.07);
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.014),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.02),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.025),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.03),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.036),
+    100px 100px 80px rgba(0, 0, 0, 0.05)
+  ;
 }
 
 #contact label {
@@ -39,6 +40,12 @@
     border-radius: 10px;
     background-color: rgb(248, 248, 248);
     font-weight: 600;
+    outline: none;
+}
+
+#contact textarea {
+    resize: vertical;
+    max-height: 500px;
 }
 
 #contact button {
@@ -54,7 +61,6 @@
 #contact button:hover {
     color: rgb(255, 100, 100);
     transform: scale(0.95);
-    text-shadow: 4px 4px 11px rgba(0, 0, 0, 0.3);
     transition: 200ms;
 }
 
@@ -74,6 +80,14 @@
 
 #error {
     color: red;
+}
+
+@media screen and (max-width: 1000px) {
+    #contact button:hover {
+        color: black;
+        transform: scale(1);
+        text-shadow: none;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -110,12 +124,13 @@
         border-radius: 10px;
         background-color: rgb(255, 255, 255);
         box-shadow:
-        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
-        100px 100px 80px rgba(0, 0, 0, 0.07);
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.014),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.02),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.025),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.03),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.036),
+        100px 100px 80px rgba(0, 0, 0, 0.05)
+      ;
     }
 
 }
