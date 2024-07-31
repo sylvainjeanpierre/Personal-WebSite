@@ -7,7 +7,7 @@ function Home() {
             <h1 id="home__title" >
                 <span>Sylvain Jeanpierre</span>
                 <br />
-                Développeur web front-end
+                Développeur web dans le Briançonnais
             </h1>
             <div className="scroll-icon">
                 <span className="wheel"></span>

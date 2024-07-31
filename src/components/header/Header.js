@@ -30,7 +30,7 @@ function Header() {
       <div id='header-container'>
       <Link to="/#home" id="header_logo-container">
         <img src={logoUrl} alt="Mon logo" id="header_logo" />
-        <p id="header_title">Sylvain Developer</p>
+        <p id="header_title">Alpes Web Solutions</p>
       </Link>
       {/* checkbox for mobile menu use */}
       <nav>

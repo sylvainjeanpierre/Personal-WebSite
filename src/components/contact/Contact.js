@@ -31,7 +31,7 @@ export const Contact = () => {
     setIsSubmitting(true);
 
     emailjs
-      .sendForm('service_rvd43pz', 'template_x3r7inr', form.current, {
+      .sendForm('service_rexqhve', 'template_x3r7inr', form.current, {
         publicKey: 'GqW9W4CW5kTGK05n-'
       })
       .then(
