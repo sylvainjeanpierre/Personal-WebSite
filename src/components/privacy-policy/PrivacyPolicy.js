@@ -4,7 +4,7 @@ function PrivacyPolicy() {
 
     return (
         <section id="privacy-policy">
-            <h1>Politique de Confidentialité de l'application "Musée de la mine de Briançon"</h1>
+            <h1>Politique de Confidentialité de l'application : <br/> <span id="privacy-policy-project-name">Musée de la mine de Briançon</span></h1>
 
             <br />
 
