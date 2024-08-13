@@ -15,8 +15,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/musee-de-la-mine-briancon/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/:id/privacy-policy" element={<PrivacyPolicy />} /> //temporaire, sera supprimé après mise à jour de l'url cible des conditions d'utilisation dans l'application "Musée de la mine de Briançon"
         <Route path="/projects/:id" element={<Project />} />
+        <Route path="/projects/:id/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="*" element={<PageError />} />
       </Routes>
       <Footer />

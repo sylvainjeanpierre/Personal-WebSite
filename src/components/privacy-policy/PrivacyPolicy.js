@@ -2,9 +2,21 @@ import "./PrivacyPolicy.scss";
 
 function PrivacyPolicy() {
 
+        const appNames = {
+            "musee-de-la-mine-briancon": "Musée de la mine de Briançon",
+            "parcours-torrent-verdarel": "Parcours du torrent Verdarel",
+            "site-geologique-combarine": "Site géologique de Combarine",
+            "espace-fours-villard-st-pancrace": "Espace fours de Villard-Saint-Pancrace"
+        };
+    
+        const pathArray = window.location.pathname.split('/');
+        const projectName = pathArray[pathArray.length - 2];
+    
+        const appName = appNames[projectName];
+
     return (
         <section id="privacy-policy">
-            <h1>Politique de Confidentialité de l'application : <br/> <span id="privacy-policy-project-name">Musée de la mine de Briançon</span></h1>
+            <h1>Politique de Confidentialité de l'application <br/> <span id="privacy-policy-project-name">{appName}</span></h1>
 
             <br />
 
