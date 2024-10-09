@@ -1,133 +1,207 @@
-[
-    {
-        "name": "Booki",
-        "id": "booki",
-        "comment": "Le projet consistait à développer le frontend de la page d'accueil de Booki, une plateforme en ligne dédiée à la recherche d'hébergements et d'activités dans différentes villes.",
-        "skills" : [
-            "Frontend",
-            "HTML",
-            "CSS"
-        ],
-        "githubUrl": "https://github.com/sylvainjeanpierre/Projet2-OC-HTML-CSS",
-        "online": "https://sylvainjeanpierre.github.io/Booki/",
-        "logoUrl": "/images/projects/booki/booki-logo.webp",
-        "imageUrl": [
-            "/images/projects/booki/booki-1.webp",
-            "/images/projects/booki/booki-2.webp"
-        ],
-        "problematic": "Difficultés à créer un design responsive qui s'adapte correctement à tous les types d'écrans.",
-        "solution": "Utilisation des Media Queries pour ajuster les éléments en fonction de la taille de l'écran et passage à un layout flexible avec Flexbox pour une meilleure gestion de l'espacement et de l'alignement des éléments."
-    },
-    {
-        "name": "Sophie Bluel",
-        "id": "sophie-bluel",
-        "comment": "J'ai été en charge du développement frontend pour le portfolio en ligne de la photographe Sophie Bluel. Ce site permet aux visiteurs de découvrir son travail à travers des catégories de photos soigneusement organisées. De plus, une interface d'administration sécurisée permet à Sophie d'ajouter, modifier ou supprimer des photos selon ses besoins.",
-        "skills" : [
-            "Frontend",
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ],
-        "githubUrl": "https://github.com/sylvainjeanpierre/Projet3-OC-JavaScript",
-        "logoUrl": "/images/projects/sophie-bluel/sophie-bluel-logo.webp",
-        "imageUrl": [
-            "/images/projects/sophie-bluel/sophie-bluel-1.webp",
-            "/images/projects/sophie-bluel/sophie-bluel-2.webp",
-            "/images/projects/sophie-bluel/sophie-bluel-3.webp",
-            "/images/projects/sophie-bluel/sophie-bluel-4.webp",
-            "/images/projects/sophie-bluel/sophie-bluel-5.webp",
-            "/images/projects/sophie-bluel/sophie-bluel-6.webp"
-        ],
-        "problematic": "Difficultés avec l'asynchronicité, notamment avec les requêtes API qui ne chargeaient pas à temps.",
-        "solution": "Mise en œuvre de async/await pour une gestion plus claire et efficace des opérations asynchrones, garantissant que les données sont chargées avant de procéder à leur traitement."
-    },
-    {
-        "name": "Menu Maker by Qwenta",
-        "id": "menu-maker-by-qwenta",
-        "comment": "Pour ce projet, j'ai eu la résponsabilité de la gestion de projet. Mon rôle à été d'initier une veille technologique interne à l'équipe et au projet, identifier les besoins techniques spécifiques, sélectionner et configurer un outil de gestion adapté.",
-        "skills" : [
-            "Gestion de projet",
-            "GitHub"
-        ],
-        "logoUrl": "/images/projects/qwenta/qwenta-logo.webp",
-        "imageUrl": [
-            "/images/projects/qwenta/qwenta-1.webp",
-            "/images/projects/qwenta/qwenta-2.webp",
-            "/images/projects/qwenta/qwenta-3.webp",
-            "/images/projects/qwenta/qwenta-4.webp",
-            "/images/projects/qwenta/qwenta-5.webp"
-        ],
-        "problematic": "Manque d'expérience dans la configuration de GitHub pour gérer un projet complet, de la planification à l'exécution.",
-        "solution": "Configuration du projet dans 'projects' pour visualiser les tâches sous forme de tableau Kanban, permettant un suivi en temps réel de l'avancement du projet."
-    },
-    {
-        "name": "Nina Carducci",
-        "id": "nina-carducci",
-        "comment": "J'ai été chargé de déboguer et d'optimiser le site web de Nina Carducci. Ce projet a impliqué la résolution de bugs, l'amélioration des performances, l'optimisation du SEO, l'intégration du référencement local et des réseaux sociaux, ainsi que la correction de l'accessibilité du site.",
-        "skills" : [
-            "Frontend",
-            "HTML",
-            "CSS",
-            "Debug",
-            "Optimisation",
-            "SEO"
-        ],
-        "githubUrl": "https://github.com/sylvainjeanpierre/Projet5-OC-Debug-Optimization",
-        "online": "https://sylvainjeanpierre.github.io/Nina-Carducci/",
-        "logoUrl": "/images/projects/nina-carducci/nina-carducci-logo.webp",
-        "imageUrl": [
-            "/images/projects/nina-carducci/nina-carducci-1.webp",
-            "/images/projects/nina-carducci/nina-carducci-2.webp",
-            "/images/projects/nina-carducci/nina-carducci-3.webp",
-            "/images/projects/nina-carducci/nina-carducci-4.webp"
-        ],
-        "problematic": "Performances médiocres du site et temps de chargement longs.",
-        "solution": "Utilisation d'outils comme Google Lighthouse pour identifier et corriger les problèmes de performances, tels que la compression d'images et la minimisation du CSS/JS."
-    },
-    {
-        "name": "Kasa",
-        "id": "kasa",
-        "comment": "Pour le projet Kasa, j'ai développé un site de location d'appartements entre particuliers en utilisant React. J'ai intégré les fonctionnalités de React telles que le routage, les composants réutilisables et la gestion d'état pour créer une interface fluide et intuitive.",
-        "skills" : [
-            "Frontend",
-            "HTML",
-            "SASS",
-            "JavaScript",
-            "React"
-        ],
-        "githubUrl": "https://github.com/sylvainjeanpierre/Projet6-OC-React",
-        "online": "https://sylvainjeanpierre.github.io/Kasa/",
-        "logoUrl": "/images/projects/kasa/kasa-logo.webp",
-        "imageUrl": [
-            "/images/projects/kasa/kasa-1.webp",
-            "/images/projects/kasa/kasa-2.webp",
-            "/images/projects/kasa/kasa-3.webp",
-            "/images/projects/kasa/kasa-4.webp"
-        ],
-        "problematic": "Assurer la réutilisabilité des composants dans différentes parties de l'application tout en maintenant un code propre et organisé.",
-        "solution": " Création de composants personnalisés au sein de l'application. Chaque composant a été conçu pour être réutilisable et encapsulé."
-    },
-    {
-        "name": "Mon vieux grimoire",
-        "id": "mon-vieux-grimoire",
-        "comment": "Pour le site de référencement et de notation de la librairie 'Mon vieux grimoire', j'ai pris en charge le développement du backend. J'ai créé un serveur Express, établi une API RESTful et mis en place un système d'authentification sécurisé. J'ai également implémenté les routes CRUD pour assurer la gestion efficace des données.",
-        "skills" : [
-            "Backend",
-            "JavaScript",
-            "NodeJS",
-            "ExpressJS",
-            "MongoDB"
-        ],
-        "githubUrl": "https://github.com/sylvainjeanpierre/Projet7-OC-Back-end",
-        "logoUrl": "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-logo.webp",
-        "imageUrl": [
-            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-1.webp",
-            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-2.webp",
-            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-3.webp",
-            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-4.webp",
-            "/images/projects/mon-vieux-grimoire/mon-vieux-grimoire-5.webp"
-        ],
-        "problematic": "Sécurité des données et gestion des sessions utilisateurs.",
-        "solution": "Mise en place de JWT (JSON Web Tokens) pour sécuriser les sessions et assurer une communication sécurisée entre le client et le serveur."
-    }
-]
+{
+    "sites-web": [
+        {
+            "name": "Booki",
+            "id": "booki",
+            "comment": "Le projet consistait à développer le frontend de la page d'accueil de Booki, une plateforme en ligne dédiée à la recherche d'hébergements et d'activités dans différentes villes.",
+            "skills": [
+                "Frontend",
+                "HTML",
+                "CSS"
+            ],
+            "githubUrl": "https://github.com/sylvainjeanpierre/Projet2-OC-HTML-CSS",
+            "online": "https://sylvainjeanpierre.github.io/Booki/",
+            "logoUrl": "/images/projects/sites-web/booki/booki-logo.webp",
+            "imageUrl": [
+                "/images/projects/sites-web/booki/booki-1.webp",
+                "/images/projects/sites-web/booki/booki-2.webp"
+            ]
+        },
+        {
+            "name": "Sophie Bluel",
+            "id": "sophie-bluel",
+            "comment": "J'ai été en charge du développement frontend pour le portfolio en ligne de la photographe Sophie Bluel. Ce site permet aux visiteurs de découvrir son travail à travers des catégories de photos soigneusement organisées. De plus, une interface d'administration sécurisée permet à Sophie d'ajouter, modifier ou supprimer des photos selon ses besoins.",
+            "skills": [
+                "Frontend",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "githubUrl": "https://github.com/sylvainjeanpierre/Projet3-OC-JavaScript",
+            "logoUrl": "/images/projects/sites-web/sophie-bluel/sophie-bluel-logo.webp",
+            "imageUrl": [
+                "/images/projects/sites-web/sophie-bluel/sophie-bluel-1.webp",
+                "/images/projects/sites-web/sophie-bluel/sophie-bluel-2.webp",
+                "/images/projects/sites-web/sophie-bluel/sophie-bluel-3.webp",
+                "/images/projects/sites-web/sophie-bluel/sophie-bluel-4.webp",
+                "/images/projects/sites-web/sophie-bluel/sophie-bluel-5.webp",
+                "/images/projects/sites-web/sophie-bluel/sophie-bluel-6.webp"
+            ]
+        },
+        {
+            "name": "Menu Maker by Qwenta",
+            "id": "menu-maker-by-qwenta",
+            "comment": "Pour ce projet, j'ai eu la résponsabilité de la gestion de projet. Mon rôle à été d'initier une veille technologique interne à l'équipe et au projet, identifier les besoins techniques spécifiques, sélectionner et configurer un outil de gestion adapté.",
+            "skills": [
+                "Gestion de projet",
+                "GitHub"
+            ],
+            "logoUrl": "/images/projects/sites-web/qwenta/qwenta-logo.webp",
+            "imageUrl": [
+                "/images/projects/sites-web/qwenta/qwenta-1.webp",
+                "/images/projects/sites-web/qwenta/qwenta-2.webp",
+                "/images/projects/sites-web/qwenta/qwenta-3.webp",
+                "/images/projects/sites-web/qwenta/qwenta-4.webp",
+                "/images/projects/sites-web/qwenta/qwenta-5.webp"
+            ]
+        },
+        {
+            "name": "Nina Carducci",
+            "id": "nina-carducci",
+            "comment": "J'ai été chargé de déboguer et d'optimiser le site web de Nina Carducci. Ce projet a impliqué la résolution de bugs, l'amélioration des performances, l'optimisation du SEO, l'intégration du référencement local et des réseaux sociaux, ainsi que la correction de l'accessibilité du site.",
+            "skills": [
+                "Frontend",
+                "HTML",
+                "CSS",
+                "Debug",
+                "Optimisation",
+                "SEO"
+            ],
+            "githubUrl": "https://github.com/sylvainjeanpierre/Projet5-OC-Debug-Optimization",
+            "online": "https://sylvainjeanpierre.github.io/Nina-Carducci/",
+            "logoUrl": "/images/projects/sites-web/nina-carducci/nina-carducci-logo.webp",
+            "imageUrl": [
+                "/images/projects/sites-web/nina-carducci/nina-carducci-1.webp",
+                "/images/projects/sites-web/nina-carducci/nina-carducci-2.webp",
+                "/images/projects/sites-web/nina-carducci/nina-carducci-3.webp",
+                "/images/projects/sites-web/nina-carducci/nina-carducci-4.webp"
+            ]
+        },
+        {
+            "name": "Kasa",
+            "id": "kasa",
+            "comment": "Pour le projet Kasa, j'ai développé un site de location d'appartements entre particuliers en utilisant React. J'ai intégré les fonctionnalités de React telles que le routage, les composants réutilisables et la gestion d'état pour créer une interface fluide et intuitive.",
+            "skills": [
+                "Frontend",
+                "HTML",
+                "SASS",
+                "JavaScript",
+                "React"
+            ],
+            "githubUrl": "https://github.com/sylvainjeanpierre/Projet6-OC-React",
+            "online": "https://sylvainjeanpierre.github.io/Kasa/",
+            "logoUrl": "/images/projects/sites-web/kasa/kasa-logo.webp",
+            "imageUrl": [
+                "/images/projects/sites-web/kasa/kasa-1.webp",
+                "/images/projects/sites-web/kasa/kasa-2.webp",
+                "/images/projects/sites-web/kasa/kasa-3.webp",
+                "/images/projects/sites-web/kasa/kasa-4.webp"
+            ]
+        },
+        {
+            "name": "Mon vieux grimoire",
+            "id": "mon-vieux-grimoire",
+            "comment": "Pour le site de référencement et de notation de la librairie 'Mon vieux grimoire', j'ai pris en charge le développement du backend. J'ai créé un serveur Express, établi une API RESTful et mis en place un système d'authentification sécurisé. J'ai également implémenté les routes CRUD pour assurer la gestion efficace des données.",
+            "skills": [
+                "Backend",
+                "JavaScript",
+                "NodeJS",
+                "ExpressJS",
+                "MongoDB"
+            ],
+            "githubUrl": "https://github.com/sylvainjeanpierre/Projet7-OC-Back-end",
+            "logoUrl": "/images/projects/sites-web/mon-vieux-grimoire/mon-vieux-grimoire-logo.webp",
+            "imageUrl": [
+                "/images/projects/sites-web/mon-vieux-grimoire/mon-vieux-grimoire-1.webp",
+                "/images/projects/sites-web/mon-vieux-grimoire/mon-vieux-grimoire-2.webp",
+                "/images/projects/sites-web/mon-vieux-grimoire/mon-vieux-grimoire-3.webp",
+                "/images/projects/sites-web/mon-vieux-grimoire/mon-vieux-grimoire-4.webp",
+                "/images/projects/sites-web/mon-vieux-grimoire/mon-vieux-grimoire-5.webp"
+            ]
+        }
+    ],
+    "applications": [
+        {
+            "name": "Musée de la mine de Briançon",
+            "id": "musee-de-la-mine-briançon",
+            "comment": "Développement de l'application du musée de la mine de Briançon en React Native. Elle permet de découvrir, de manière autonome, le musée.",
+            "skills": [
+                "React Native"
+            ],
+            "logoUrl": "/images/projects/applications/musee-mine/musee-mine-logo.png",
+            "noNameLogo": true,
+            "imageUrl": [
+                "/images/projects/applications/musee-mine/musee-mine-1.webp",
+                "/images/projects/applications/musee-mine/musee-mine-2.webp",
+                "/images/projects/applications/musee-mine/musee-mine-3.webp",
+                "/images/projects/applications/musee-mine/musee-mine-4.webp",
+                "/images/projects/applications/musee-mine/musee-mine-5.webp",
+                "/images/projects/applications/musee-mine/musee-mine-6.webp",
+                "/images/projects/applications/musee-mine/musee-mine-7.webp"
+            ],
+            "googlePlayUrl": "https://play.google.com/store/apps/details?id=fr.alpeswebsolutions.museedelaminebriancon"
+        },
+        {
+            "name": "Parcours du torrent Verdarel",
+            "id": "parcours-torrent-verdarel",
+            "comment": "Développement de l'application du parcours du torrent Verdarel en React Native. Elle permet de se repérer sur le parcours, d’accéder facilement aux différents sites, de découvrir 7 sites géo-référencés par le biais de photos, de textes explicatifs ou de messages audio.",
+            "skills": [
+                "React Native"
+            ],
+            "logoUrl": "/images/projects/applications/verdarel/verdarel-logo.png",
+            "noNameLogo": true,
+            "imageUrl": [
+                "/images/projects/applications/verdarel/verdarel-1.webp",
+                "/images/projects/applications/verdarel/verdarel-2.webp",
+                "/images/projects/applications/verdarel/verdarel-3.webp",
+                "/images/projects/applications/verdarel/verdarel-4.webp",
+                "/images/projects/applications/verdarel/verdarel-5.webp",
+                "/images/projects/applications/verdarel/verdarel-6.webp",
+                "/images/projects/applications/verdarel/verdarel-7.webp",
+                "/images/projects/applications/verdarel/verdarel-8.webp",
+                "/images/projects/applications/verdarel/verdarel-9.webp"
+            ],
+            "googlePlayUrl": "https://play.google.com/store/apps/details?id=fr.alpeswebsolutions.parcourstorrentverdarel"
+        },
+        {
+            "name": "Parcours de la Combarine",
+            "id": "parcours-combarine",
+            "comment": "Développement de l'application du parcours de la Combarine en React Native. Elle permet de se repérer, soit pour se positionner au point de départ de ce circuit découverte, soit pour accéder aux différents sites et de découvrir les 9 sites géoréférencés par le biais de photos et de textes explicatifs.",
+            "skills": [
+                "React Native"
+            ],
+            "logoUrl": "/images/projects/applications/combarine/combarine-logo.png",
+            "noNameLogo": true,
+            "imageUrl": [
+                "/images/projects/applications/combarine/combarine-1.webp",
+                "/images/projects/applications/combarine/combarine-2.webp",
+                "/images/projects/applications/combarine/combarine-3.webp",
+                "/images/projects/applications/combarine/combarine-4.webp",
+                "/images/projects/applications/combarine/combarine-5.webp",
+                "/images/projects/applications/combarine/combarine-6.webp",
+                "/images/projects/applications/combarine/combarine-7.webp"
+            ],
+            "googlePlayUrl": "https://play.google.com/store/apps/details?id=fr.alpeswebsolutions.parcourscombarine"
+        },
+        {
+            "name": "Espace fours de Villard St Pancrace",
+            "id": "espace-fours-villard-st-pancrace",
+            "comment": "Développement de l'application de l'espace fours de Villard St Pancrace en React Native. Elle permet de découvrir, de manière autonome, l’espace fours de Villard St Pancrace.",
+            "skills": [
+                "React Native"
+            ],
+            "logoUrl": "/images/projects/applications/espace-fours/espace-fours-logo.png",
+            "noNameLogo": true,
+            "imageUrl": [
+                "/images/projects/applications/espace-fours/espace-fours-1.webp",
+                "/images/projects/applications/espace-fours/espace-fours-2.webp",
+                "/images/projects/applications/espace-fours/espace-fours-3.webp",
+                "/images/projects/applications/espace-fours/espace-fours-4.webp",
+                "/images/projects/applications/espace-fours/espace-fours-5.webp",
+                "/images/projects/applications/espace-fours/espace-fours-6.webp",
+                "/images/projects/applications/espace-fours/espace-fours-7.webp"
+            ],
+            "googlePlayUrl": "https://play.google.com/store/apps/details?id=fr.alpeswebsolutions.espacefoursvillard"
+        }
+    ]
+}

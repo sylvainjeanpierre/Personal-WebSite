@@ -18,6 +18,7 @@ function Skills() {
         { name: "SASS", logo: "sass-logo.webp" },
         { name: "JavaScript", logo: "javascript-logo.webp" },
         { name: "React", logo: "react-logo.webp" },
+        { name: "React Native", logo: "react-native-logo.webp" },
         { name: "NodeJS", logo: "node-logo.webp" },
         { name: "Express", logo: "express-logo.webp" },
         { name: "Git", logo: "git-logo.webp" },

@@ -51,7 +51,8 @@
     margin: 15px;
 }
 
-#project-github {
+#project-github,
+#project-google-play {
     width: 50%;
     max-width: 150px;
     cursor: pointer;
@@ -59,7 +60,8 @@
 }
 
 #project-github:hover,
-#project-online:hover {
+#project-online:hover,
+#project-google-play:hover {
     transform: scale(0.95);
     opacity: 0.8;
     transition: 200ms;
@@ -75,7 +77,8 @@
 @media screen and (max-width: 1000px) {
 
     #project-github:hover,
-    #project-online:hover {
+    #project-online:hover,
+    #project-google-play:hover {
         transform: scale(1);
         opacity: 1;
     }
